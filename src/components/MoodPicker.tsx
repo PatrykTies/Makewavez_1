@@ -49,6 +49,7 @@ export const MoodPicker: React.FC<MoodPickerProps> = ({ onSelect }) => {
   }, [onSelect, selectedMood]);
 
   if (hasSelected) {
+    Crashes.generateTestCrash();
     return (
       <View style={styles.container}>
         <Image source={imageSrc} style={styles.image} />
