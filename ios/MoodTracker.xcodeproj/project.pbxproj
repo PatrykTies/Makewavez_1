@@ -533,7 +533,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.rnative.MoodTrackerz;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rnative.Makewavez;
 				PRODUCT_NAME = MoodTracker;
 				SWIFT_OBJC_BRIDGING_HEADER = "MoodTracker-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -561,7 +561,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.rnative.MoodTrackerz;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rnative.Makewavez;
 				PRODUCT_NAME = MoodTracker;
 				SWIFT_OBJC_BRIDGING_HEADER = "MoodTracker-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
