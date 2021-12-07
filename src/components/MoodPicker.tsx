@@ -6,6 +6,9 @@ import Reanimated, {
   useAnimatedStyle,
   withTiming,
 } from 'react-native-reanimated';
+// Testing crashes with App Center
+import Crashes from 'appcenter-crashes';
+
 
 const ReanimatedPressable = Reanimated.createAnimatedComponent(Pressable);
 
@@ -40,6 +43,8 @@ export const MoodPicker: React.FC<MoodPickerProps> = ({ onSelect }) => {
       onSelect(selectedMood);
       setSelectedMood(undefined);
       setHasSelected(true);
+      //Test crash
+      Crashes.generateTestCrash();
     }
   }, [onSelect, selectedMood]);
 
